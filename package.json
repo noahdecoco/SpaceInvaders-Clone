@@ -1,0 +1,39 @@
+{
+  "name": "(nutshell)",
+  "version": "1.0.0",
+  "description": "A simple seed that grows into modern web-projects",
+  "main": "index.html",
+  "babel": {
+    "presets": [
+      "babili",
+      "es2015"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noahdecoco",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-babili": "0.0.3",
+    "babel-preset-es2015": "^6.16.0",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^6.0.0",
+    "grunt-bower-concat": "^1.0.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-htmlmin": "^0.6.0",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-wiredep": "^2.0.0",
+    "jshint-stylish": "latest",
+    "load-grunt-tasks": "^3.5.2",
+    "pixi.js": "^4.0.3"
+  },
+  "dependencies": {}
+}
